@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(124, 124, 124);
+}
+h1{
+    margin-bottom: 5%;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(216, 216, 216);
+}
+.main-section{
+    width: 60%;
+    margin: auto;
+    padding-top: 5%;
+    text-align: center;
+}
+textarea{
+    width: 100%;
+    border-radius: 0  25px 0 25px;
+}
+
+button{
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: 21px;
+    color: black;
+    border: .2rem solid black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background: none;
+    font-weight: bold;
+}
+
+button:hover{
+    background: rgb(109, 109, 109);
+    border: .2rem solid rgb(134, 134, 134);
+}
